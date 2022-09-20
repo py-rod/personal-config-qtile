@@ -47,7 +47,7 @@ run variety &
 run nm-applet &
 #run pamac-tray &
 run xfce4-power-manager &
-redshift -P -O 5000 &
+redshift -P -O 4300 &
 numlockx on &
 blueberry-tray &
 picom --config $HOME/.config/qtile/scripts/picom.conf &
