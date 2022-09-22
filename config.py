@@ -232,7 +232,7 @@ layout_theme = init_layout_theme()
 
 
 layouts = [
-    layout.MonadTall(margin=8, border_width=2, border_focus="#5df9fc", border_normal="#2F343F"),
+    layout.MonadTall(margin=8, border_width=2, border_focus=["#00FFEA", "#8565FF"], border_normal="#2F343F"),
     #layout.MonadWide(margin=8, border_width=2, border_focus="#5e81ac", border_normal="#4c566a"),
     #layout.Matrix(**layout_theme),
     #layout.Bsp(**layout_theme),
@@ -257,9 +257,9 @@ def init_colors():
             ["#ffffff", "#ffffff"], # color 10
             ["#FFF905", "#FFF905"], # color 11
             ["#0e0f1a", "#0e0f1a"], # color 12
-            ["#b994fc", "#b994fc"], # color 13
-            ["#a271fc", "#a271fc"], # color 14
-            ["#5df9fc", "#5df9fc"]] # color 15
+            ["#FBFE7D", "#00FFEA"], # color 13
+            ["#8565FF", "#8565FF"], # color 14
+            ["#00FFEA", "#00FFEA"]] # color 15
 
 
 colors = init_colors()
@@ -397,10 +397,18 @@ def init_widgets_list():
                #          ),
                widget.TextBox(
                         font="Noto Sans Bold",
-                        text=" ",
+                        text="                          ",
                         foreground=colors[10],
                         background=colors[12],
                         padding = 0,
+                        fontsize=16
+                        ),
+               widget.TextBox(
+                        font="Noto Sans Bold",
+                        text=" ",
+                        foreground=colors[10],
+                        background=colors[12],
+                        padding =0,
                         fontsize=16
                         ),
                widget.CPU(

@@ -109,14 +109,14 @@ super + KP_Enter
 
 #Dolphin
 super + k
-    dolphin
+    thunar
 #################################################################
 # SUPER + SHIFT KEYS
 #################################################################
 
 #File-Manager
 super + shift + Return
-	dolphin
+	 thunar
 
 #Keyboard dependent
 #File-Manager
@@ -158,7 +158,7 @@ ctrl + alt + Prior
 
 #File-Manager
 ctrl + alt + b
-     dolphin
+     thunar
 
 #Catfish
 ctrl + alt + c
